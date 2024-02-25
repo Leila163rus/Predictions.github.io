@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #1f2632;
+}
+#container {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    max-width: 550px;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+}
+#p-content {
+    border-radius: 0.8rem;
+    background-color: #323a49;
+    text-align: center;
+}
+#heading {
+    display: block;
+    font-size: 1.9rem;
+    font-weight: 900;
+    padding: 1em 1em 0.25em 1em;
+    color: #0dcaf0;
+    letter-spacing: 4px;
+}
+#p-area {
+    display: flex;
+    justify-content: center;
+    padding: 1.5em 1.5em 0 1.5em;
+}
+#p-text {
+    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: white;
+    padding: 10px;
+}
+#reload button {
+    padding: 1.2em;
+    border-radius: 50%;
+    border: 10px solid #1f2632;
+    transform: translate(0%, 50%);
+    background-color: #0dcaf0;
+}
